@@ -1,0 +1,28 @@
+{
+  "name": "server_cloud",
+  "version": "1.0.0",
+  "description": "CRUD API ",
+  "main": " src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha src/test/user.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "mqtt": "^3.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
